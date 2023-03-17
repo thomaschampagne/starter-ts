@@ -28,7 +28,7 @@
 
 ## Introduction
 
-Looking to create a TypeScript library? You can use this repository as a starter kit which comes with all the necessary setup. It based on `antfu/starter-ts`.
+Looking to create a TypeScript library? You can use this repository as a starter kit which comes with all the necessary setup. It based on `antfu/starter-ts` with few improvements:
 
 - Enforced `ESLint` rules.
 - `TypeDoc` documentation generator.
