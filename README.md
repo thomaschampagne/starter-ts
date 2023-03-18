@@ -68,11 +68,14 @@ Replace this usage with yours.
 
 ### Setup
 
-- Install the latest version of `pnpm` globally 
+- Install the latest version of [pnpm](https://pnpm.io/) globally 
 
 ```bash
-npm uninstall -g pnpm && npm install -g pnpm@latest
+npm uninstall -g pnpm
+npm install -g pnpm@latest
 ```
+
+_Note: If you never installed `pnpm` before, you may need to reload your shell to access `pnpm` CLI._
 
 - Then install the lib dependencies
 
