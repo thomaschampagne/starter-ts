@@ -1,46 +1,44 @@
 lockfileVersion: 5.4
 
-importers:
+specifiers:
+  '@types/node': ^18.15.3
+  '@typescript-eslint/eslint-plugin': ^5.55.0
+  '@typescript-eslint/parser': ^5.55.0
+  bumpp: ^9.0.0
+  eslint: ^8.36.0
+  eslint-config-prettier: ^8.7.0
+  eslint-plugin-prettier: ^4.2.1
+  esno: ^0.16.3
+  husky: ^8.0.3
+  markdown-toc-gen: ^1.0.1
+  npm-check-updates: ^16.7.13
+  pnpm: ^7.30.0
+  prettier: ^2.8.5
+  typedoc: ^0.23.28
+  typescript: ^5.0.2
+  unbuild: ^1.1.2
+  vite: ^4.2.0
+  vitest: ^0.29.3
 
-  .:
-    specifiers:
-      '@types/node': ^18.15.3
-      '@typescript-eslint/eslint-plugin': ^5.55.0
-      '@typescript-eslint/parser': ^5.55.0
-      bumpp: ^9.0.0
-      eslint: ^8.36.0
-      eslint-config-prettier: ^8.7.0
-      eslint-plugin-prettier: ^4.2.1
-      esno: ^0.16.3
-      husky: ^8.0.3
-      markdown-toc-gen: ^1.0.1
-      npm-check-updates: ^16.7.13
-      pnpm: ^7.30.0
-      prettier: ^2.8.5
-      typedoc: ^0.23.28
-      typescript: ^5.0.2
-      unbuild: ^1.1.2
-      vite: ^4.2.0
-      vitest: ^0.29.3
-    devDependencies:
-      '@types/node': 18.15.3
-      '@typescript-eslint/eslint-plugin': 5.55.0_qsnvknysi52qtaxqdyqyohkcku
-      '@typescript-eslint/parser': 5.55.0_j4766f7ecgqbon3u7zlxn5zszu
-      bumpp: 9.0.0
-      eslint: 8.36.0
-      eslint-config-prettier: 8.7.0_eslint@8.36.0
-      eslint-plugin-prettier: 4.2.1_e4jq4ivnnnwcsomlcyj2qoljy4
-      esno: 0.16.3
-      husky: 8.0.3
-      markdown-toc-gen: 1.0.1
-      npm-check-updates: 16.7.13
-      pnpm: 7.30.0
-      prettier: 2.8.5
-      typedoc: 0.23.28_typescript@5.0.2
-      typescript: 5.0.2
-      unbuild: 1.1.2
-      vite: 4.2.0_@types+node@18.15.3
-      vitest: 0.29.3
+devDependencies:
+  '@types/node': 18.15.3
+  '@typescript-eslint/eslint-plugin': 5.55.0_qsnvknysi52qtaxqdyqyohkcku
+  '@typescript-eslint/parser': 5.55.0_j4766f7ecgqbon3u7zlxn5zszu
+  bumpp: 9.0.0
+  eslint: 8.36.0
+  eslint-config-prettier: 8.7.0_eslint@8.36.0
+  eslint-plugin-prettier: 4.2.1_e4jq4ivnnnwcsomlcyj2qoljy4
+  esno: 0.16.3
+  husky: 8.0.3
+  markdown-toc-gen: 1.0.1
+  npm-check-updates: 16.7.13
+  pnpm: 7.30.0
+  prettier: 2.8.5
+  typedoc: 0.23.28_typescript@5.0.2
+  typescript: 5.0.2
+  unbuild: 1.1.2
+  vite: 4.2.0_@types+node@18.15.3
+  vitest: 0.29.3
 
 packages:
 

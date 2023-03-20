@@ -36,17 +36,18 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild && pnpm run docs",
+    "build": "unbuild",
     "dev": "unbuild --stub",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp && pnpm publish",
     "start": "esno src/index.ts",
-    "test": "vitest",
+    "test": "vitest --run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "readme:toc": "markdown-toc-gen update README.md",
     "docs": "pnpm run readme:toc && typedoc src/index.ts",
+    "integrate": "pnpm install && pnpm run typecheck && pnpm run lint:fix && pnpm run test && pnpm run build && pnpm run docs",
     "upgrade:libs": "ncu -u",
     "prepare": "husky install"
   },

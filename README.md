@@ -21,6 +21,7 @@
   - [Run linting check](#run-linting-check)
   - [Generate library documentation](#generate-library-documentation)
   - [Update library dependencies](#update-library-dependencies)
+  - [Integrate library](#integrate-library)
 - [Appendix](#appendix)
   - [Update the table of content of this readme](#update-the-table-of-content-of-this-readme)
 
@@ -119,6 +120,22 @@ Documentation is generated using [TypeDoc](https://typedoc.org/).
 
 ```bash
 pnpm run upgrade:libs
+```
+
+### Integrate library
+
+Run common tasks all-in-once:
+
+- Dependencies install
+- TypeScript check
+- Lint fixes
+- Tests
+- Build
+- Documentation
+
+
+```bash
+pnpm run integrate
 ```
 
 ## Appendix
