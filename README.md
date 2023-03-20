@@ -22,7 +22,7 @@
   - [Generate library documentation](#generate-library-documentation)
   - [Update library dependencies](#update-library-dependencies)
 - [Appendix](#appendix)
-  - [Update the table of content of your readme](#update-the-table-of-content-of-your-readme)
+  - [Update the table of content of this readme](#update-the-table-of-content-of-this-readme)
 
 <!-- tocstop -->
 
@@ -123,7 +123,7 @@ pnpm run upgrade:libs
 
 ## Appendix
 
-### Update the table of content of your readme
+### Update the table of content of this readme
 
 ```bash
 pnpm run readme:toc
