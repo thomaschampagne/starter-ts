@@ -2,7 +2,7 @@
   "name": "starter-ts",
   "type": "module",
   "version": "0.1.0",
-  "packageManager": "pnpm@7.30.0",
+  "packageManager": "pnpm@8.1.0",
   "description": "",
   "author": "Thomas Champagne <th.champagne@gmail.com>",
   "license": "MIT",
@@ -52,23 +52,23 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@types/node": "^18.15.7",
-    "@typescript-eslint/eslint-plugin": "^5.56.0",
-    "@typescript-eslint/parser": "^5.56.0",
-    "bumpp": "^9.0.0",
-    "eslint": "^8.36.0",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
     "markdown-toc-gen": "^1.0.1",
-    "npm-check-updates": "^16.8.0",
-    "pnpm": "^7.30.0",
+    "npm-check-updates": "^16.9.0",
+    "pnpm": "^8.1.0",
     "prettier": "^2.8.7",
     "tsx": "^3.12.6",
     "typedoc": "^0.23.28",
     "typescript": "^5.0.2",
     "unbuild": "^1.1.2",
     "vite": "^4.2.1",
-    "vitest": "^0.29.7"
+    "vitest": "^0.29.8"
   }
 }
