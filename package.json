@@ -2,7 +2,7 @@
   "name": "starter-ts",
   "type": "module",
   "version": "0.1.0",
-  "packageManager": "pnpm@8.1.0",
+  "packageManager": "pnpm@8.1.1",
   "description": "",
   "author": "Thomas Champagne <th.champagne@gmail.com>",
   "license": "MIT",
@@ -47,8 +47,9 @@
     "lint:fix": "eslint . --fix",
     "readme:toc": "markdown-toc-gen update README.md",
     "docs": "pnpm run readme:toc && typedoc src/index.ts",
-    "integrate": "pnpm install && pnpm run typecheck && pnpm run lint:fix && pnpm run test && pnpm run build && pnpm run docs",
+    "integrate": "pnpm run upgrade:libs && pnpm run upgrade:package-manager && pnpm run typecheck && pnpm run lint:fix && pnpm run test && pnpm run build && pnpm run docs",
     "upgrade:libs": "pnpm up --latest",
+    "upgrade:package-manager": "tsx -e \"const fs=require('fs');const packageJson=JSON.parse(fs.readFileSync('package.json'));packageJson.packageManager='pnpm@' + packageJson.devDependencies.pnpm.replaceAll(/\\^|\\~/g, '');fs.writeFileSync('package.json',JSON.stringify(packageJson,null,2));\"",
     "prepare": "husky install"
   },
   "devDependencies": {
