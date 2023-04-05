@@ -4,7 +4,7 @@
  */
 export class Sesame {
   private static readonly AVAILABLE_CHARS =
-    'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*{}()';
+    'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*{}(),.;:/<>?|_-+=';
 
   /**
    * Create a password according length parameter
