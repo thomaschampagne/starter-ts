@@ -34,8 +34,8 @@ Looking to create a TypeScript library? You can use this repository as a starter
 - Enforced `ESLint` rules.
 - `TypeDoc` documentation generator.
 - Auto update of the `README.md` table of content.
-- Auto update of library dependencies `npm-check-updates`.
-- `Husky` package in place of `simple-git-hooks` as pre-commit linting validator
+- Auto update of library dependencies.
+- `Husky` in place of `simple-git-hooks` as pre-commit linting validator
 
 For demonstration purposes, I included a password generator called `Sesame` in this starter library. 
 
@@ -59,7 +59,7 @@ Replace `your-package-name` with yours.
 This below usage is for demonstration purposes.
 
 ```typescript
-const passwordLength = 16;
+const passwordLength = 24;
 const password = Sesame.create(passwordLength);
 ```
 
