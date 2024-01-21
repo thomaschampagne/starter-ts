@@ -1,8 +1,5 @@
 # starter-ts
 
-> **Note**:
-> Replace `starter-ts`, `_description_` and `thomaschampagne` globally to use this template.
-
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![bundle][bundle-src]][bundle-href]
@@ -12,6 +9,7 @@
 <!-- toc -->
 
 - [Introduction](#introduction)
+- [Package description](#package-description)
 - [Install](#install)
 - [Usage](#usage)
 - [Development](#development)
@@ -24,6 +22,7 @@
   - [Integrate library](#integrate-library)
 - [Appendix](#appendix)
   - [Update the table of content of this readme](#update-the-table-of-content-of-this-readme)
+- [License](#license)
 
 <!-- tocstop -->
 
@@ -37,7 +36,7 @@ Looking to create a TypeScript library? You can use this repository as a starter
 - Auto update of library dependencies.
 - `Husky` in place of `simple-git-hooks` as pre-commit linting validator
 
-For demonstration purposes, I included a password generator called `Sesame` in this starter library. 
+For demonstration purposes, I included a password generator called `Sesame` in this starter library.
 
 To get started, simply replace the content in these 2 files with your own code:
 
@@ -46,13 +45,17 @@ To get started, simply replace the content in these 2 files with your own code:
 
 Happy coding 🙂 !
 
+## Package description
+
+`_description_`
+
 ## Install
 
 ```bash
 npm install your-package-name
 ```
 
-Replace `your-package-name` with yours.
+> Replace `your-package-name`, `starter-ts`, `_description_` and `thomaschampagne` globally to use this template.
 
 ## Usage
 
@@ -69,7 +72,7 @@ Replace this usage with yours.
 
 ### Setup
 
-- Install the latest version of [pnpm](https://pnpm.io/) globally 
+- Install the latest version of [pnpm](https://pnpm.io/) globally
 
 ```bash
 npm uninstall -g pnpm
@@ -134,7 +137,6 @@ Run common tasks all-in-once:
 - Update `README.md` table of content
 - Generate documentation
 
-
 ```bash
 pnpm run integrate
 ```
@@ -149,17 +151,17 @@ pnpm run readme:toc
 
 ## License
 
-[MIT](./LICENSE) License © 2023-PRESENT [Anthony Fu](https://github.com/antfu)
+[MIT](./LICENSE) License © 2023-PRESENT [Anthony Fu](https://github.com/thomaschampagne)
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/pkg-placeholder
-[npm-downloads-src]: https://img.shields.io/npm/dm/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/pkg-placeholder
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=pkg-placeholder
-[license-src]: https://img.shields.io/github/license/antfu/pkg-placeholder.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/antfu/pkg-placeholder/blob/main/LICENSE
+[npm-version-src]: https://img.shields.io/npm/v/starter-ts?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/starter-ts
+[npm-downloads-src]: https://img.shields.io/npm/dm/starter-ts?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/starter-ts
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/starter-ts?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=starter-ts
+[license-src]: https://img.shields.io/github/license/thomaschampagne/starter-ts.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/thomaschampagne/starter-ts/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/pkg-placeholder
+[jsdocs-href]: https://www.jsdocs.io/package/starter-ts
