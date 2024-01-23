@@ -4,7 +4,7 @@ import { Sesame } from '../src';
 describe('Sesame', () => {
   it('should create and assert password length', () => {
     // Given
-    const expectedLength = 24;
+    const expectedLength = 64;
 
     // When
     const password = Sesame.create(expectedLength);
