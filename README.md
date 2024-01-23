@@ -55,7 +55,7 @@ Happy coding 🙂 !
 npm install your-package-name
 ```
 
-> Replace `your-package-name`, `starter-ts`, `_description_` and `thomaschampagne` globally to use this template.
+> Replace `your-package-name`, `thomaschampagne`, `starter-ts`, `thomaschampagne/starter-ts` and `_description_` globally to use this template.
 
 ## Usage
 
@@ -151,17 +151,17 @@ pnpm run readme:toc
 
 ## License
 
-[MIT](./LICENSE) License © 2023-PRESENT [Anthony Fu](https://github.com/thomaschampagne)
+[MIT](./LICENSE) License © 2023-PRESENT [Thomas Champagne](https://github.com/thomaschampagne)
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/starter-ts?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/starter-ts
-[npm-downloads-src]: https://img.shields.io/npm/dm/starter-ts?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/starter-ts
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/starter-ts?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=starter-ts
+[npm-version-src]: https://img.shields.io/npm/v/thomaschampagne/starter-ts?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/thomaschampagne/starter-ts
+[npm-downloads-src]: https://img.shields.io/npm/dm/thomaschampagne/starter-ts?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/thomaschampagne/starter-ts
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/thomaschampagne/starter-ts?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=thomaschampagne/starter-ts
 [license-src]: https://img.shields.io/github/license/thomaschampagne/starter-ts.svg?style=flat&colorA=080f12&colorB=1fa669
 [license-href]: https://github.com/thomaschampagne/starter-ts/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/starter-ts
+[jsdocs-href]: https://www.jsdocs.io/package/thomaschampagne/starter-ts
