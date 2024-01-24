@@ -16,16 +16,8 @@ export class Sesame {
    */
   public static create(length: number): string {
     const availableChars = Sesame.AVAILABLE_CHARS;
-    const randomChars = new Array(length);
     const cryptoArray = new Uint32Array(length);
-
     crypto.getRandomValues(cryptoArray);
-
-    for (let i = 0; i < length; i++) {
-      const randomIndex = cryptoArray[i] % availableChars.length;
-      randomChars[i] = availableChars.charAt(randomIndex);
-    }
-
-    return randomChars.join('');
+    return Array.from(cryptoArray, num => availableChars.charAt(num % availableChars.length)).join('');
   }
 }
