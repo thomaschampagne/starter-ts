@@ -49,15 +49,17 @@ export class Sesame {
 
     // Function to calculate bits per symbol based on password characters
     const bitsPerSymbol = (passwd: string): number => {
+      // Return by default
+      let bitsFound = 0;
+
       // Iterate over the classes array
       for (const [pattern, bits] of classes) {
         // If the password matches a regular expression, return the associated entropy value
         if (pattern.test(passwd)) {
-          return bits;
+          bitsFound = bits;
         }
       }
-      // If no match is found, return 0
-      return 0;
+      return bitsFound;
     };
 
     // Return the total entropy by multiplying the bits per symbol by the length of the password

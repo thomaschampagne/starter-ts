@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@jest/globals';
 import { Sesame } from '../src';
 
 describe('Sesame ', () => {
@@ -20,7 +20,7 @@ describe('Sesame ', () => {
       // When the password is created
       const password = Sesame.generate(length);
       // Then the password should have the specified length
-      expect(password).to.have.length(length);
+      expect(password).toHaveLength(length);
     });
 
     it('should only contain characters from the available characters', () => {
@@ -30,7 +30,7 @@ describe('Sesame ', () => {
       // When we check each character in the password
       for (const char of password) {
         // Then each character should be in the list of available characters
-        expect(availableChars).to.include(char);
+        expect(availableChars).toContain(char);
       }
     });
 
@@ -40,7 +40,7 @@ describe('Sesame ', () => {
       const password2 = Sesame.generate(10);
       // When we compare the two passwords
       // Then they should not be equal
-      expect(password1).to.not.equal(password2);
+      expect(password1).not.toEqual(password2);
     });
 
     // Additional test for handling invalid inputs
@@ -49,7 +49,7 @@ describe('Sesame ', () => {
       const invalidLength = -1;
       // When we try to create a password with the invalid length
       // Then it should throw an error
-      expect(() => Sesame.generate(invalidLength)).to.throw('Length must be a positive integer');
+      expect(() => Sesame.generate(invalidLength)).toThrow('Length must be a positive integer');
     });
   });
 
@@ -63,7 +63,7 @@ describe('Sesame ', () => {
       const entropy = Sesame.entropy(password);
 
       // Then
-      expect(entropy).to.be.at.least(expectedEntropy);
+      expect(entropy).toBeGreaterThanOrEqual(expectedEntropy);
     });
 
     it('should return zero entropy for an empty password', () => {
