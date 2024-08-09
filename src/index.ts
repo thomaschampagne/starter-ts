@@ -1,8 +1,7 @@
 import crypto from 'crypto';
 
 /**
- * @author Thomas Champagne
- * @description Password generator used as demo for the purpose of this starter library
+ * Password generator used as demo for the purpose of this starter library
  */
 export class Sesame {
   public static readonly AVAILABLE_CHARS =
